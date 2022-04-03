@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <div className="App">
-      <h1 className='text-6xl'>Hello</h1>
+    <Header></Header>
+      <h1 className='text-4xl'>Product Analysis</h1>
     </div>
   );
 }
