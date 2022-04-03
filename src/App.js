@@ -5,7 +5,6 @@ function App() {
   return (
     <div className="App">
     <Header></Header>
-      <h1 className='text-4xl'>Product Analysis</h1>
     </div>
   );
 }
