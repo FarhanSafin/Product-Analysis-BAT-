@@ -13,7 +13,7 @@ const Navbar = () => {
 
     return (
         <nav>
-            <ul className='md:flex justify-center'>
+            <ul className='md:flex place-content-center mt-9'>
                 {
                     routes.map(route => <Navigate 
                     key={route.id}
