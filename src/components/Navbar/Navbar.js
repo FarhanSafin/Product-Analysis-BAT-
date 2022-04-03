@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from '../Link/Link';
+import Navigate from '../Navigate/Navigate';
 
 const Navbar = () => {
 
@@ -15,20 +15,13 @@ const Navbar = () => {
         <nav>
             <ul className='md:flex justify-center'>
                 {
-                    routes.map(route => <Link 
+                    routes.map(route => <Navigate 
                     key={route.id}
                     route={route}
-                    ></Link>)
+                    ></Navigate>)
                 }
             </ul>
         </nav>
-
- 
-
-
-
-
-
     );
 };
 
