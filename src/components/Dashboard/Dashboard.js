@@ -1,5 +1,3 @@
-import axios from "axios";
-import React, { useEffect, useState } from "react";
 import {
   LineChart,
   Line,
@@ -15,13 +13,12 @@ import {
   Pie,
   Tooltip
 } from "recharts";
+import useDashboard from "../hooks/useDashboard";
 
 const Dashboard = () => {
-    const [data, setData] = useState([])
-    useEffect(() => {
-        axios.get('chart.json')
-        .then(data=>setData(data.data))
-    },[])
+
+  const [data] = useDashboard();
+
 
     return (
         <div className="grid grid-rows-2 grid-flow-col gap-9 justify-center mt-20">
