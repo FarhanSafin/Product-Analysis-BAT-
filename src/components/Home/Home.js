@@ -1,7 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import useReviews from '../hooks/useReviews';
+import Review from '../Review/Review';
 
 const Home = () => {
+
+    const [reviews] = useReviews();
+    const sliced = reviews.slice(0,3);
+
+
     return (
         <div >
         <section className='flex'>
@@ -15,8 +22,15 @@ const Home = () => {
         </section>
 
         <section>
-            <h2 className='mt-48 text-3xl'>Customer Review</h2>
-            <Link to="/reviews"><button class="bg-red-400 hover:bg-red-900 text-white font-bold py-2 px-4 rounded-full mt-10">Preview</button></Link>
+            <h2 className='mt-48 text-3xl'>Customer Review: {sliced.length}</h2>
+            <div className='grid grid-cols-3 gap-4 ml-20 mr-20'>
+            {
+                sliced.map(slice => <Review
+                key={slice.id}
+                review={slice}></Review>)
+            }
+            </div>
+            <Link to="/reviews"><button class="bg-red-400 hover:bg-red-900 text-white font-bold py-2 px-4 rounded-full mt-10 mb-10">Preview</button></Link>
         </section>
         </div>
     );
