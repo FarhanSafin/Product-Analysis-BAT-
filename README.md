@@ -1,6 +1,6 @@
 # Bat Analyser
 
-This live link of the project is: [Live Preview](https://bat-analyser.netlify.app/).
+This live link of the project is: [Live Preview](https://bat-analyser.netlify.app/home).
 
 ## About the project
 The project is about cricket bat. In this project you can see some customers review about bat they brought from the certain company. As well as you can also see the monthly sale, investment and revenue in the dashboard which is shown using rechart.
