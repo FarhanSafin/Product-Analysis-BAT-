@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "pic": "https://i.ibb.co/0cvD5FQ/avataaars.png",
+        "name": "Kawser",
+        "review": "Best bat.",
+        "rating": 4
+    },
+    {
+        "id": 2,
+        "pic": "https://i.ibb.co/0cvD5FQ/avataaars.png",
+        "name": "Khalil",
+        "review": 423,
+        "rating": 4.5
+    },
+    {
+        "id": 3,
+        "pic": "https://i.ibb.co/0cvD5FQ/avataaars.png",
+        "name": "Rahid",
+        "review": "Perfect bat according to my need",
+        "rating": 4.5
+    },
+    {
+        "id": 4,
+        "pic": "https://i.ibb.co/0cvD5FQ/avataaars.png",
+        "name": "Karim",
+        "review": "Resonable price",
+        "rating": 5
+    },
+    {
+        "id": 5,
+        "pic": "https://i.ibb.co/0cvD5FQ/avataaars.png",
+        "name": "Roshid",
+        "review": "You can get the best bat from them",
+        "rating": 5
+    },
+    {
+        "id": 6,
+        "pic": "https://i.ibb.co/0cvD5FQ/avataaars.png",
+        "name": "Amena",
+        "review": "Not very happy with their service",
+        "rating": 2.5
+    }
+  ]
